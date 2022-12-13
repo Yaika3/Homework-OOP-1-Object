@@ -1,5 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Human максим = new Human("Максим",1988, "Минск","бренд-менеджером");
+        Human аня = new Human("Аня", 1993 , " Москва","методистом образовательных программ");
+        Human катя = new Human("Катя", 1992 , " Калининград","продакт-менеджером");
+        Human артем = new Human("Артем", 1995 , " Москва","директором по развитию бизнеса");
+        System.out.println(максим.toString());
+        System.out.println(аня.toString());
+        System.out.println(катя.toString());
+        System.out.println(артем.toString());
+
+
     }
 }
